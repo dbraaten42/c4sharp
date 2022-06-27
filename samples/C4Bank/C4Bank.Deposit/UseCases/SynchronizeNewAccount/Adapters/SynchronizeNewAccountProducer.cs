@@ -5,7 +5,7 @@ namespace C4Bank.Deposit.UseCases.SynchronizeNewAccount.Adapters;
 
 public class SynchronizeNewAccountProducer: ISynchronizeNewAccountProducer
 {
-    public Task Complete(AccountSynchronized @event)
+    public Task Compleat(AccountSynchronized @event)
     {
         return Task.CompletedTask;
     }
